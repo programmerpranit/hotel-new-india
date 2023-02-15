@@ -1,0 +1,260 @@
+* {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body {
+    background-color: #EAE4DC;
+}
+
+h1 {
+    font-family: "Segoe UI";
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.line {
+    height: 1px;
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.pure-veg {
+    text-align: right !important;
+    padding-top: 0px;
+    color: green;
+    font-weight: 600;
+    font-style: italic;
+    width: 65%;
+}
+
+.color-bg {
+    color: #EAE4DC;
+}
+
+.btn-book {
+    width: 85%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+}
+
+.top-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/top-img.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.top-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/top-img.jpeg');
+    height: 50vh;
+    /* height: 60vh; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+    color: white;
+
+    padding: 15px;
+
+    display: flex;
+
+}
+
+.top-title {
+    display: flex;
+    color: white;
+    
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.para li{
+    font-size: small;
+}
+
+.hni {
+    font-family: "Segoe UI";
+    /* text-align: center; */
+    font-weight: 600;
+    /* font-size: 2rem; */
+    /* line-height: 3rem; */
+    /* padding: 15px; */
+    /* color: white; */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.top-title h1 {
+    
+    font-size : xx-large;
+    line-height: normal;
+    text-align: left;
+}
+.top-title p {
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    font-size : 12px;
+    line-height: 19px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.book-now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: black;
+    height: 50vh;
+    /* height: 30vh; */
+}
+
+.about-us {
+    padding: 25px;
+}
+
+.rooms {
+    padding: 25px;
+}
+
+.rooms-slider {
+    background-color: black;
+}
+
+
+.room-img {
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rooom-detail {
+    height: 50vh;
+}
+
+.room-p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #EAE4DC;
+    padding-inline: 25px;
+}
+
+.conference-hall {
+    padding: 25px;
+}
+
+.restaurent {
+    padding: 25px;
+}
+
+.nearby-places {
+    padding: 25px;
+    background: #000;
+}
+
+.box {
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bg-img {
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-5 {
+    /* height: 90vh; */
+    /* height: fit-content; */
+}
+
+.testimonials {
+    padding: 25px;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.gallery-btn {
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+footer {
+    padding: 25px;
+    display: flex;
+    color: white;
+    background-color: black;
+    /* height: 100vh; */
+}
